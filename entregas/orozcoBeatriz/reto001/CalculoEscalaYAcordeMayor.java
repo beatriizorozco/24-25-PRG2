@@ -53,7 +53,6 @@ public class CalculoEscalaYAcordeMayor {
     
     static void respuestaFinal(int notaInicial, String[] escalaMayor) {
         System.out.println("Ha elegido la nota " + NOTAS_ESCALA_COMPLETA[notaInicial]);
-        escalaMayor = calcularEscalaMayor(notaInicial);
         System.out.print("La escala de " + NOTAS_ESCALA_COMPLETA[notaInicial] + " Mayor es: ");
         System.out.print("La escala de " + NOTAS_ESCALA_COMPLETA[notaInicial] + " Mayor es: ");
         for (int i = 0; i < escalaMayor.length; i++) {
